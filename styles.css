@@ -11,8 +11,10 @@
 }
 
 .card-img {
-    width: 200px;
+    width: 300px;
     height: auto;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
 }
 
 .header-hero-container {
@@ -35,6 +37,10 @@
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
+}
+
+.header-logo, .nav-links {
+    margin-bottom: 75px;
 }
 
 .left-side .title {
@@ -79,5 +85,77 @@
     align-items: center;
 }
 
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
 
+.memories-section h1 {
+    text-align: center;
+    padding: 8px;
+    margin: 16px;
+}
+
+.memories-section {
+    padding: 80px 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 300px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px 0;
+}
+
+.quote-container p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px 16px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.cta-section {
+    background-color: #F9FAF8;
+    padding: 100px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
 
